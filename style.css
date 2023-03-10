@@ -1,9 +1,9 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
-body>:nth-child(1){
+body>:nth-child(1) {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -12,13 +12,13 @@ body>:nth-child(1){
     z-index: -1;
 }
 
-body>:nth-child(1)>img{
+body>:nth-child(1)>img {
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%;
 }
 
-.layer2{
+.layer2 {
     display: inline-block;
     position: absolute;
     top: 45%;
@@ -27,18 +27,35 @@ body>:nth-child(1)>img{
     background-color: red;
 }
 
-.layer2 > h1{
+.layer2>h1 {
     color: transparent;
 }
 
-#door2{
+#door2 {
     right: 0;
 }
 
-.entities >img{
+.entities>:nth-child(1) {
     position: absolute;
     width: 30px;
     height: 30px;
     align-self: center;
     justify-content: center;
+}
+
+.player {
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    border-radius: 40px;
+}
+
+
+
+
+#player1{
+    background-color: red;
+}
+#player2{
+    background-color: blue;
 }
